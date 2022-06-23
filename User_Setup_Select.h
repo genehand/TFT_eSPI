@@ -21,7 +21,7 @@
 
 //#include <User_Setup.h>           // Default setup is root library folder
 
-#include <User_Setups/Setup42_ST7789.h>
+#include <User_Setups/Setup123_ST7789.h>
 
 //#include <User_Setups/Setup1_ILI9341.h>  // Setup file for ESP8266 configured for my ILI9341
 //#include <User_Setups/Setup2_ST7735.h>   // Setup file for ESP8266 configured for my ST7735
