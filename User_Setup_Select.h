@@ -19,7 +19,9 @@
 
 // Only ONE line below should be uncommented.  Add extra lines and files as needed.
 
-#include <User_Setup.h>           // Default setup is root library folder
+//#include <User_Setup.h>           // Default setup is root library folder
+
+#include <../Setup42_ST7789V.h>
 
 //#include <User_Setups/Setup1_ILI9341.h>  // Setup file for ESP8266 configured for my ILI9341
 //#include <User_Setups/Setup2_ST7735.h>   // Setup file for ESP8266 configured for my ST7735
@@ -114,11 +116,11 @@
 
 //#include <User_Setups/Setup202_SSD1351_128.h>      // Setup file for ESP32/ESP8266 based SSD1351 128x128 1.5inch OLED display
 
-//#include <User_Setups/Setup203_ST7789.h>     // Setup file for ESP32/ESP8266 based ST7789 240X280 1.69inch TFT 
+//#include <User_Setups/Setup203_ST7789.h>     // Setup file for ESP32/ESP8266 based ST7789 240X280 1.69inch TFT
 
-//#include <User_Setups/Setup204_ESP32_TouchDown.h>     // Setup file for the ESP32 TouchDown based on ILI9488 480 x 320 TFT 
+//#include <User_Setups/Setup204_ESP32_TouchDown.h>     // Setup file for the ESP32 TouchDown based on ILI9488 480 x 320 TFT
 
-//#include <User_Setups/Setup205_ESP32_TouchDown_S3.h>     // Setup file for the ESP32 TouchDown S3 based on ILI9488 480 x 320 TFT 
+//#include <User_Setups/Setup205_ESP32_TouchDown_S3.h>     // Setup file for the ESP32 TouchDown S3 based on ILI9488 480 x 320 TFT
 
 //#include <User_Setups/SetupX_Template.h>     // Template file for a setup
 
@@ -157,7 +159,7 @@
 #endif
 
 // Legacy setup support, RPI_ILI9486_DRIVER form is deprecated
-// Instead define RPI_DISPLAY_TYPE and also define driver (e.g. ILI9486_DRIVER) 
+// Instead define RPI_DISPLAY_TYPE and also define driver (e.g. ILI9486_DRIVER)
 #if defined (RPI_ILI9486_DRIVER)
   #if !defined (ILI9486_DRIVER)
     #define ILI9486_DRIVER
